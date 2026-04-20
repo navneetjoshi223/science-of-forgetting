@@ -50,15 +50,15 @@ to guide the user through the concept step by step.
 
 ```bash
 npm install
-npm run dev
+npm run dev```
 
-🌐 Live Demo
+## 🌐 Live Demo
 
 👉 Add your Vercel link here
 
 ⸻
 
-** 🎯 Why I Built This**
+## 🎯 Why I Built This
 
 I wanted to explore how complex ideas can be communicated more effectively through interactive storytelling rather than static content.
 
