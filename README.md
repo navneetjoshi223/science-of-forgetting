@@ -48,28 +48,37 @@ to guide the user through the concept step by step.
 
 ## 🚀 Getting Started
 
-```bash
-npm install
-npm run dev```
+    npm install
+    npm run dev
+
+---
 
 ## 🌐 Live Demo
 
-👉 Add your Vercel link here
+👉 https://your-vercel-link.vercel.app
 
-⸻
+---
 
 ## 🎯 Why I Built This
 
-I wanted to explore how complex ideas can be communicated more effectively through interactive storytelling rather than static content.
+I wanted to explore how complex ideas can be communicated more effectively through **interactive storytelling** rather than static content.
 
 This project focuses on:
-	•	Translating a scientific concept into a visual narrative
-	•	Using interaction to reinforce understanding
-	•	Balancing clarity, design, and technical execution
 
-⸻
+- Translating a scientific concept into a visual narrative  
+- Using interaction to reinforce understanding  
+- Balancing clarity, design, and technical execution  
 
-🔮 Future Improvements
-	•	Enhanced micro-interactions and motion polish
-	•	Additional retention scenarios
-	•	Accessibility improvements (ARIA, keyboard navigation)
+---
+
+## 🔮 Future Improvements
+
+- Enhanced micro-interactions and motion polish  
+- Additional retention scenarios  
+- Accessibility improvements (ARIA, keyboard navigation)  
+
+---
+
+## 📌 Notes
+
+Built as an experiment in combining storytelling, design, and frontend engineering.
