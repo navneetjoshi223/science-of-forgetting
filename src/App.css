@@ -1,0 +1,9 @@
+/* Forgetting Curve — app styles */
+:root {
+  --surface: #111111;
+  --surface-2: #1a1a1a;
+}
+
+section {
+  width: 100%;
+}
