@@ -55,7 +55,7 @@ to guide the user through the concept step by step.
 
 ## 🌐 Live Demo
 
-👉 https://your-vercel-link.vercel.app
+👉 https://science-of-forgetting.vercel.app/
 
 ---
 
