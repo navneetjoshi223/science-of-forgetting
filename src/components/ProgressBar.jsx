@@ -15,6 +15,11 @@ const ProgressBar = () => {
 
   return (
     <div
+      role="progressbar"
+      aria-label="Page scroll progress"
+      aria-valuenow={Math.round(progress)}
+      aria-valuemin="0"
+      aria-valuemax="100"
       style={{
         position: 'fixed',
         top: 0,

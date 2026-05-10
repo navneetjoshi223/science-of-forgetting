@@ -91,9 +91,17 @@ const ChartSection = ({ frequency, mode = 'none' }) => {
     return () => { clearTimeout(t1); clearTimeout(t2); };
   }, [isInView]);
 
+  const chartLabel = usingFrequency
+    ? `Memory retention over 7 days with revision frequency: ${frequency} times per week`
+    : mode === 'revision'
+      ? 'Memory retention over 7 days with daily revision'
+      : 'Memory retention over 7 days without any revision';
+
   return (
     <motion.div
       ref={containerRef}
+      role="img"
+      aria-label={chartLabel}
       initial={false}
       animate={{ clipPath: revealed ? 'inset(0 0% 0 0)' : 'inset(0 100% 0 0)' }}
       transition={

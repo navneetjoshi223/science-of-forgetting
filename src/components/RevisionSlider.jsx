@@ -217,6 +217,8 @@ const RevisionSlider = ({ value, onChange }) => {
           value={value}
           onChange={(e) => onChange(Number(e.target.value))}
           className="revision-slider"
+          aria-label="How often do you revise?"
+          aria-valuetext={FREQ_LABELS[value]}
           style={{
             position: 'absolute',
             inset: '-9px 0',

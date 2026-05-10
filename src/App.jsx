@@ -425,21 +425,23 @@ export default function App() {
                 }}>
                   After 7 days, average retention is
                 </p>
-                <AnimatedCounter
-                  from={100}
-                  to={21}
-                  duration={2400}
-                  suffix="%"
-                  style={{
-                    fontSize: 'clamp(68px, 11vw, 104px)',
-                    fontWeight: 800,
-                    color: 'var(--danger)',
-                    letterSpacing: '-0.04em',
-                    lineHeight: 1,
-                    display: 'block',
-                    fontVariantNumeric: 'tabular-nums',
-                  }}
-                />
+                <div aria-live="polite" aria-atomic="true">
+                  <AnimatedCounter
+                    from={100}
+                    to={21}
+                    duration={2400}
+                    suffix="%"
+                    style={{
+                      fontSize: 'clamp(68px, 11vw, 104px)',
+                      fontWeight: 800,
+                      color: 'var(--danger)',
+                      letterSpacing: '-0.04em',
+                      lineHeight: 1,
+                      display: 'block',
+                      fontVariantNumeric: 'tabular-nums',
+                    }}
+                  />
+                </div>
                 <p style={{
                   fontSize: '13px',
                   color: 'var(--text-muted)',
@@ -799,7 +801,7 @@ export default function App() {
                 </p>
 
                 {/* Big animated number — wrapper ref used for the scale pulse on change */}
-                <div ref={counterScope} style={{ display: 'inline-block' }}>
+                <div ref={counterScope} style={{ display: 'inline-block' }} aria-live="polite" aria-atomic="true">
                   <AnimatedCounter
                     live
                     from={15}

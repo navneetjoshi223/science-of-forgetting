@@ -22,6 +22,7 @@ const ToggleControl = ({ mode, onChange }) => {
           <button
             key={opt.value}
             onClick={() => onChange(opt.value)}
+            aria-pressed={active}
             style={{
               position: 'relative',
               padding: '10px 22px',
